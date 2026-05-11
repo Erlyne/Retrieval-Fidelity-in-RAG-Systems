@@ -16,7 +16,7 @@ I tested 4,000 question-paragraph pairs from the SQUAD 2.0 dataset, broken down 
 ## Measuring the Relationship
 I extracted two core metrics to see if the models could tell the difference between facts and tricks
 1. **Cosine Similarity:** Measuring the semantic "direction" between vectors
-   $$cos(\theta)=\frac{q\cdot c}{||q||_{2}||c||_{2}}$$ 
+   $$cos(\theta)=\frac{q\cdot c}{||q||_{2}||c||_{2}}$$
 2. **Jaccard Index:** Measuring the raw keyword overlap (lexical matching).
   $$J(Q,C)=\frac{|Q\cap C|}{|Q\cup C|}$$ 
 
